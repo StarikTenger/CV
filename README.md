@@ -22,3 +22,23 @@ ilyinandreyilyin@gmail.com
 
     * [stack programming language interpretor on scheme](https://github.com/StarikTenger/BMSTU/blob/master/scheme-labs/LAB_5.scm)
     * [big number computation on assembly](https://github.com/StarikTenger/BMSTU/tree/master/assembler/labs/lab4%2B)
+
+# Education
+* **2018 – 2020**: Secondary general education, GPA: 5.0/5.0, lyceum No40, Nizhniy Novgorod,
+Russia.
+* **2020 – present**: Bachelor of Applied Mathematics and Information Science, Bauman Moscow
+State Technical University, Moscow, Russia
+
+# Skills & Experience
+* **Programming languages:** C++, C, Python, Javascript, Java, Scheme, GLSL, Golang, Assembly
+* **Contests:** Active programming contests participants in highschool, ICPC semi-final participant
+* **Technologies:** GLSL, SFML, OpenGL, Box2d
+* **Math:** Mathematical Analysis, Lineal Algebra, Analytic geometry
+
+# Languages
+* **English (C1)**
+* **Russian (native)**
+
+# Hobbies
+* **Music:** leading a band, playing electric guitar, writting own arrangments
+* **Drawing:** doing sketches on graphic tablet, attempting at pencil drawing

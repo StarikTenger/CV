@@ -1,5 +1,5 @@
 # Andrei Ilin
-ilyinandreyilyin@gmail.com
+stariktenger@gmail.com | https://github.com/stariktenger
 # Projects
 * [SpaceSodomy2](https://github.com/StarikTenger/SpaceSodomy2) **[C++ | SFML, Box2d]**
     

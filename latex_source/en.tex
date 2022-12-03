@@ -1,0 +1,166 @@
+\documentclass[
+    % Uncomment the following for more compact font size and spacing
+    compact
+]{llresume}
+
+% Use the following commands to change the document's colors
+\definecolor{accentcolor}{HTML}{8D281E}
+\definecolor{fillcolor}{HTML}{E4EDDE}
+\definecolor{headingcolor}{HTML}{1C6336}
+
+% Define custom commands, if needed
+\renewcommand{\emph}[1]{{\bfseries\color{accentcolor}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal information
+%
+% For contacts and other info, you can use \infoGeneric{<icon>}{<text>}[<link>]
+% to add a line of information, or one of the following shortcuts in the form
+% \info<Shortcut>{<text>}[<link>]:
+%
+% \infoEmail          \infoDate           \infoLinkedin       \infoBook
+% \infoPhone          \infoPlace          \infoGithub         \infoAuthor
+% \infoAddress        \infoLink           \infoInstagram      \infoTools
+% \infoBirthday       \infoHomepage       \infoFlickr
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% First name, last name
+\name{Andrei}{Ilin Mikhailovich}[he/him]
+
+% Profile photo
+\photo{profile_photo.jpg}
+
+% Contacts and other info
+\personalinfo{
+    \infoAddress{Moscow, Russia}
+    \infoEmail{stariktenger@gmail.com}[stariktenger@gmail.com]
+    \infoGithub{github.com/stariktenger}[https://github.com/stariktenger]
+}
+
+% Tag line
+\tagline{
+    My name is Andrei Ilin, I am a stduent of \emph{Bauman Moscow State Technical University}, currently working on my projects in \emph{Formal Language Theory} and \emph{Computer Graphics}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main pane
+%
+% Each section of the main pane is enclosed within an environment of the form
+% \begin{mainsection}{<section title>} ... \end{mainsection}
+%
+% Available commands:
+%
+% \entryJob{<title>}[<descr>]{<location>}{<date>}
+% \entryPub{<title>}[<descr>]{<authors>}{<journal/conference>}{<DOI/link>}
+% \entrySkills[<title>]{<list of skills>}
+% \entryTags[<title>]{<list of tags>}
+% \entryGeneric{<title>}[<descr>][<info>][<info>][<info>]
+%
+% Skill and tag commands:
+%
+% \skill{<name>}{<score>}
+% \simpleskill[<icon>]{<name>}
+% \boxedtag[<icon>]{<name>}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\makeheader
+
+\begin{mainpane}
+    \begin{mainsection}{Education}
+        \entryJob
+            {Bachelor of Applied Mathematics and Information Science}
+            [ GPA: 4.2/5.0]
+            {Bauman Moscow State Technical University}
+            {2018 — 2020}
+        \entryJob
+            {High school}
+            [GPA: 5.0/5.0]
+            {lyceum No40, Nizhniy Novgorod}
+            {2020 — present}
+    \end{mainsection}
+
+
+    \begin{mainsection}{Projects}
+        \entryGeneric
+            {Formal Language Converter}
+            [Study project on Formal Language Theory. Processes regular expressions and finite automata an generates a step-by-step description of all transitions in LaTeX]
+            [\simpleskill{C++} \simpleskill{LaTeX}]
+            [\infoGithub
+                {github.com/StarikTenger/Chipollino}
+                [https://github.com/StarikTenger/Chipollino]]
+        \entryGeneric
+            {Regular Language Problem}
+            [Determining if a fromal grammar defines a regular language using some approximations. Written under the Formal Language Theory contest]
+            [\simpleskill{C++}]
+            [\infoGithub
+                {github.com/StarikTenger/RegularLanguageProblem}
+                [https://github.com/StarikTenger/RegularLanguageProblem]]
+        \entryGeneric
+            {Mimic Game}
+            [University project made during summer practice. Consists of two parts: the game itself and a level editor for it]
+            [\simpleskill{Typescript}]
+            [\infoGithub
+                {github.com/bmstu-iu9/ptp2021-6-2d-game}
+                [https://github.com/bmstu-iu9/ptp2021-6-2d-game]]
+        \entryGeneric
+            {Online Space Shooter}
+            [Game developed by the group of BMSTU and MIPT students. It is a 2d multiplayer space-shooter which takes all features of newton mechanics such as linear and angular inertia]
+            [\simpleskill{C++}\simpleskill{SFML}\simpleskill{Box2d}]
+            [\infoGithub
+                {github.com/StarikTenger/SpaceSodomy2}
+                [https://github.com/StarikTenger/SpaceSodomy2]]
+    \end{mainsection}
+
+    \begin{mainsection}{Work experience}
+        \entryJob
+            {Python backend developer}
+            [Worked on university contest platform during summer practice]
+            {Moscow, Russia (remote)}
+            {Summer 2022}
+    \end{mainsection}
+
+    \begin{mainsection}{Skills}
+        \entrySkills[Programming languages]{
+            \skill{C++}{3}
+            \skill{Python}{3}
+            \skill{Haskell}{2}
+            \skill{JS}{2}
+            \skill{Java}{1}
+            \skill{Golang}{2}
+            \skill{C}{2}
+            \skill{Schecme}{1}
+            \skill{Assembly}{1}
+        }
+        \entrySkills[Technologies]{
+            \simpleskill{Git}
+            \simpleskill{OpenGL}
+            \simpleskill{SQL}
+        }
+        \entrySkills[Math]{
+            \simpleskill{Mathematical Analysis}
+            \simpleskill{Lineal Algebra}
+            \simpleskill{Analytic Geometry}
+            \simpleskill{Formal Language Theory}
+            \simpleskill{Universal Algebra}
+        }
+    \end{mainsection}
+
+    \begin{mainsection}{Languages}
+        \skill{English (C1)}{3}
+        \skill{Russian (Native)}{3}
+        \skill{French (Beginner)}{1}
+    \end{mainsection}
+
+    \begin{mainsection}{Personal interests}
+        \entryTags{
+            \boxedtag{Electric guitar}
+            \boxedtag{Composing music}
+            \boxedtag{Game jams}
+            \boxedtag{Drawing}
+        }
+    \end{mainsection}
+\end{mainpane}
+
+\end{document}

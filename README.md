@@ -32,8 +32,12 @@ stariktenger@gmail.com | https://github.com/stariktenger
 # Education
 * **2018 – 2020**: Secondary general education, GPA: 5.0/5.0, lyceum No40, Nizhniy Novgorod,
 Russia.
-* **2020 – present**: Bachelor of Applied Mathematics and Information Science, GPA: 4.2/5.0, Bauman Moscow
+* **2020 – 2023**: Bachelor of Applied Mathematics and Information Science, GPA: 4.2/5.0, Bauman Moscow
 State Technical University, Moscow, Russia
+* **2023 – present**: Master of Science in Informatics at Grenoble, Grenoble, France
+
+# Working experience
+* **Reseach lab in Huawei** - Optimization of video memory consumption by compressing images in Mesa3D driver
 
 # Skills & Experience
 * **Programming languages:** `C++`, `Haskell`, `Python`, `JS`, `Java`, `Scheme`, `GLSL`, `Golang`, `C`, `Assembly`

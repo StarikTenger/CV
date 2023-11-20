@@ -456,10 +456,9 @@
 % Required user definitions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\NewDocumentCommand{\name}{m m o}{%
+\NewDocumentCommand{\name}{m m}{%
     \def\@firstname{#1}
     \def\@lastname{#2}
-    \IfValueT{#3}{\def\@pronouns{#3}}
 }
 
 \NewDocumentCommand{\photo}{m}{%
@@ -512,8 +511,6 @@
         {\LARGE\bfseries\@firstname}%
         \par%
         {\LARGE\bfseries\MakeUppercase{\@lastname}}%
-        \par%
-        {\Large(\@pronouns)}%
     }%
     \def\@personalinfocomponent{%
         \raggedright%

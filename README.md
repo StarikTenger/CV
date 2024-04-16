@@ -3,7 +3,7 @@ stariktenger@gmail.com | https://github.com/stariktenger
 # Projects
 * [Formal Language Converter](https://github.com/StarikTenger/Chipollino) **[C++ | LaTeX]**
 
-    Study project on **Formal Language Theory**. Computes operations over *regular expressions* and *finite automata* an generates a step-by-step description of all transitions in *LaTeX*. The purpose of the project is to provide peolple with an oportunity to learn formal languages in an interactive way. 
+    Study project on **Formal Language Theory**. Computes operations over *regular expressions* and *finite automata* and generates a step-by-step description of all transitions in *LaTeX*. The purpose of the project is to provide people with an opportunity to learn formal languages in an interactive way. 
     
     My contribution to the project is managing workflow in the team of 9 members, writing an interpreter and implementing testing using *github actions*
 
@@ -34,15 +34,15 @@ stariktenger@gmail.com | https://github.com/stariktenger
 Russia.
 * **2020 – 2023**: Bachelor of Applied Mathematics and Information Science, GPA: 4.2/5.0, Bauman Moscow
 State Technical University, Moscow, Russia
-* **2023 – present**: Master of Science in Informatics at Grenoble, Grenoble, France
+* **2023 – present**: MOSIG (Master of Science in Informatics at Grenoble), Université Grenoble Alpes, France
 
 # Working experience
 * **Reseach lab in Huawei** - Optimization of video memory consumption by compressing images in Mesa3D driver
 
 # Skills & Experience
-* **Programming languages:** `C++`, `Haskell`, `Python`, `JS`, `Java`, `Scheme`, `GLSL`, `Golang`, `C`, `Assembly`
+* **Programming languages:** `C++`, `C`, `Haskell`, `OCaml`, `Python`, `JS`, `Java`, `Scheme`, `GLSL`, `Golang`, `Assembly`
 * **Contests:** Active programming contests participants in highschool, ICPC semi-final participant
-* **Technologies:** `Git`, `SQL`, `OpenGL`, `GLSL`, `SFML`, `Box2d`
+* **Technologies:** `Git`, `SQL`, `OpenMP`, `MPI`, `OpenGL`, `GLSL`, `SFML`, `Box2d`
 * **Math:** `Mathematical Analysis`, `Lineal Algebra`, `Analytic Geometry`, `Formal Language Theory`, `Universal Algebra`
 * **Conferences:** Patricipated in [OSEDUCONF-2023](https://www.basealt.ru/conference/ezhegodnaja-konferencija-spo-v-vysshei-shkole) presenting the [Formal Language Converter](https://github.com/StarikTenger/Chipollino)
 

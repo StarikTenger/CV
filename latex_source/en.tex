@@ -25,21 +25,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % First name, last name
-\name{Andrei}{Ilin Mikhailovich}
+\name{Andrei}{Ilin}
 
 % Profile photo
 \photo{profile_photo.jpg}
 
 % Contacts and other info
 \personalinfo{
-    \infoAddress{Moscow, Russia}
+    \infoAddress{Grenoble, France}
     \infoEmail{stariktenger@gmail.com}[stariktenger@gmail.com]
     \infoGithub{github.com/stariktenger}[https://github.com/stariktenger]
 }
 
 % Tag line
 \tagline{
-    My name is Andrei Ilin, I am a stduent of \emph{UGA} on the 1st year of master degree,
+    I am a 2nd year master student of MOSIG, a program offered by \emph{UGA} and \emph{Ensimag}. At the moment I am working at \emph{Verimag} on the research in microarchitecture and formal methods. Passionate about hardware and compilers, keen on functional languages.
+
+    Currently looking for PhD or job starting from autumn 2025.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,17 +72,18 @@
 \begin{mainpane}
     \begin{mainsection}{Education}
 		\entryJob
-            {Master of Science in Informatics at Grenoble}
+            {Master of Science in Informatics at Grenoble (MOSIG)}
             {Université Grenoble Alpes}
             {2023 — present}
+            {profile in Parallel Computing and Distributed Systems}
         \entryJob
             {Bachelor of Applied Mathematics and Information Science}
-            [ GPA: 4.2/5.0]
+            %[ GPA: 4.2/5.0]
             {Bauman Moscow State Technical University}
             {2020 — 2023}
         \entryJob
             {High school}
-            [GPA: 5.0/5.0]
+            %[GPA: 5.0/5.0]
             {Lyceum 40, Nizhniy Novgorod}
             {2018 — 2020}
     \end{mainsection}
@@ -101,13 +104,6 @@
             [\infoGithub
                 {github.com/StarikTenger/PathTracing}
                 [https://github.com/StarikTenger/PathTracing]]
-        \entryGeneric
-            {Mimic Game}
-            [University project made during summer practice. Consists of two parts: the game itself and a level editor]
-            [\simpleskill{Typescript}]
-            [\infoGithub
-                {github.com/bmstu-iu9/ptp2021-6-2d-game}
-                [https://github.com/bmstu-iu9/ptp2021-6-2d-game]]
         % \entryGeneric
         %     {Online Space Shooter}
         %     [Game developed by the group of BMSTU and MIPT students. It is a 2d multiplayer space-shooter which takes all features of newton mechanics such as linear and angular inertia]
@@ -117,41 +113,65 @@
         %         [https://github.com/StarikTenger/SpaceSodomy2]]
     \end{mainsection}
 
+    \begin{mainsection}{Personal interests}
+        \entryTags{
+            \boxedtag{Electric guitar}
+            \boxedtag{Composing music}
+            \boxedtag{Game jams}
+            \boxedtag{Drawing}
+        }
+    \end{mainsection}
+
     \begin{mainsection}{Work experience}
+        \entryJob
+                {VERIMAG (M2 internship)}
+                [Study on time anomalies with respect to branch predictor in out-of-order processor]
+                {Grenoble, France}
+                {February-July 2025}
+                [\simpleskill{Formal Methods} \simpleskill{Model Checking} \simpleskill{TLA+}]
+        \entryJob
+                {TIMA Lab, Grenoble INP (M1 internship)}
+                [Approaching automatic proofs for Chisel high level descriptions of digital circuits]
+                {Grenoble, France}
+                {February-June 2024}
+                [\simpleskill{Formal Proofs}\simpleskill{Isabelle/HOL}\simpleskill{Chisel}]
+        \entryJob
+            {Huawei -- research lab (internship)}
+            [Optimization of video memory consumption by compressing images in Mesa3D driver]
+            {Nizhnii Novgorod, Russia}
+            {June-August 2023}
+            [\simpleskill{C}\simpleskill{Mesa3D}]
         \entryJob
             {Python backend developer}
             [Worked on university contest platform during summer practice. The platform is now used by BMSTU students]
             {Moscow, Russia (remote)}
             {Summer 2022}
             [\simpleskill{Python}\simpleskill{Flask}\simpleskill{HTML}]
-		\entryJob
-            {Huawei -- research lab}
-            [Optimization of video memory consumption by compressing images in Mesa3D driver]
-            {Nizhnii Novgorod, Russia}
-            {Summer 2023}
-            [\simpleskill{C}\simpleskill{Mesa3D}]
+            
     \end{mainsection}
 
     \begin{mainsection}{Skills}
         \entrySkills[Programming languages]{
-            \skill{C/C++}{3}
-            \skill{Python}{3}
-            \skill{Haskell}{2}
-            \skill{JS}{2}
-            \skill{Java}{1}
-            \skill{Golang}{2}
-            \skill{Scheme}{1}
-            \skill{Assembly}{1}
+            \simpleskill{C/C++}
+            \simpleskill{Python}
+            \simpleskill{Haskell}
+            \simpleskill{OCaml}
+            \simpleskill{JS}
+            \simpleskill{Java}
+            \simpleskill{Golang}
+            \simpleskill{Assembly}
         }
         \entrySkills[Technologies]{
             \simpleskill{Git}
             \simpleskill{OpenGL}
-            \simpleskill{SQL}
+            \simpleskill{RabbitMQ}
+            \simpleskill{OpenMP}
+            \simpleskill{MPI}
         }
         \entrySkills[Skills]{
             \simpleskill{Mathematical Analysis}
             \simpleskill{Lineal Algebra}
-            \simpleskill{Analytic Geometry}
+            \simpleskill{Cryptology}
             \simpleskill{Formal Language Theory}
             \simpleskill{Operating systems}
             \simpleskill{Computer Graphics}
@@ -164,14 +184,7 @@
         \skill{French (Beginner)}{1}
     \end{mainsection}
 
-    \begin{mainsection}{Personal interests}
-        \entryTags{
-            \boxedtag{Electric guitar}
-            \boxedtag{Composing music}
-            \boxedtag{Game jams}
-            \boxedtag{Drawing}
-        }
-    \end{mainsection}
+    
 \end{mainpane}
 
 \end{document}

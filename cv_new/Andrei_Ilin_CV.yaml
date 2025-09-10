@@ -1,0 +1,236 @@
+cv:
+  name: Andrei Ilin
+  location: Grenoble, France
+  email: stariktenger@gmail.com
+  photo: profile_picture.jpg
+  # phone: +1-609-999-9995
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: stariktenger
+    - network: GitHub
+      username: stariktenger
+  sections:
+    education:
+      - institution: Université Grenoble Alpes
+        area: Computer Science
+        degree: Master
+        date:
+        start_date: 2023
+        end_date: 2025
+        location: Grenoble, France
+        summary:
+        highlights:
+          - MOSIG program by UGA and Ensimag
+          - Specialization in Parallel Computing and Distributed Systems
+      - institution: Bauman Moscow State Technical University
+        area: Applied Mathematics and Computer Science
+        degree: Bachelor
+        date:
+        start_date: 2020
+        end_date: 2023
+        location: Moscow, Russia
+        summary:
+        highlights:
+          - Program with emphasis on formal methods and compiler construction
+          
+    experience:
+      - company: VERIMAG
+        position: Research Internship
+        date:
+        start_date: 2025-02
+        end_date: 2025-09
+        location: Grenoble, France
+        summary: Study on timing anomalies caused by branch prediction in out of order processor
+        highlights:
+          - Formal methods, Model checking, TLA+
+      - company: TIMA (Grenoble INP)
+        position: Research Internship
+        date:
+        start_date: 2024-02
+        end_date: 2024-08
+        location: Grenoble, France
+        summary: Approaching automatic proofs for Chisel high level descriptions of digital circuits
+        highlights:
+          - Formal proofs, Isabelle/HOL, Chisel
+      - company: Huawei
+        position: Research Internship
+        date:
+        start_date: 2022-07
+        end_date: 2022-08
+        location: Nizhnii Novgorod, Russia
+        summary: Optimization of video memory consumption by compressing images in Mesa3D driver
+        highlights:
+          - C, Mesa3D
+    projects:
+      - name: '[Formal Language Converter](https://github.com/OnionGrief/Chipollino)'
+        date: 2022-2023
+        location:
+        summary: A framework to facilitate learning formal language theory. Operations on regular expressions and finite automata and generating a step-by-step description of all transitions in LaTeX.
+        highlights:
+          - Presented on OSEDUCONF-2023, a conference for educators in IT
+          - I contributed in leading the team of 9 people, planning the architecture and implementing some core algorithms
+      - name: '[Path Tracing](https://github.com/StarikTenger/PathTracing)'
+        date: '2023'
+        location:
+        summary: Rendering realistic images using path tracing. My coursework on the topic of Computer Graphics
+        highlights:
+          - OpenGL, C++ and GLSL fragment shaders
+    skills:
+      - label: Programming
+        details: Proficient with C++ and Git. Comfortable with C, Python, Haskell, Java, JavaScript, TypeScript, Ocaml, Golang.
+      - label: Familiar with
+        details: Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification.
+      - label: Languages
+        details: 'English (fluent, C1), French (B1), Russian (native)'
+    extracurricular_activities:
+      - label: Game Jams
+        details: Participated in several game jams. Developed games using C++, JavaScript, TypeScript and Godot engine.
+
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 2cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-09-09'
+  render_command:
+  bold_keywords: []

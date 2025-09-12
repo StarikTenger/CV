@@ -80,7 +80,7 @@ cv:
       - label: Programming
         details: Proficient with C++ and Git. Comfortable with C, Python, Haskell, Java, JavaScript, TypeScript, Ocaml, Golang.
       - label: Familiar with
-        details: Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification.
+        details: Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification, GPUs and Parallel Programming (CUDA, OpenCV, OpenMP)
       - label: Languages
         details: 'English (fluent, C1), French (B1), Russian (native)'
     extracurricular_activities:

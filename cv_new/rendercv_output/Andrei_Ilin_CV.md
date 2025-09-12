@@ -57,7 +57,7 @@
 # Skills
 
 - Programming: Proficient with C++ and Git. Comfortable with C, Python, Haskell, Java, JavaScript, TypeScript, Ocaml, Golang.
-- Familiar with: Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification.
+- Familiar with: Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification, GPUs and Parallel Programming (CUDA, OpenCV, OpenMP)
 - Languages: English (fluent, C1), French (B1), Russian (native)
 # Extracurricular Activities
 

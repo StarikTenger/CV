@@ -614,7 +614,7 @@ July 2022 – Aug 2022
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Familiar with:] Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification]
+  content: [#strong[Familiar with:] Compilers, Cryptology, Operation Research, Computer Graphics, basics of Processor Architecture and Formal Verification, GPUs and Parallel Programming \(CUDA, OpenCV, OpenMP\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
